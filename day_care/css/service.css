@@ -1,0 +1,66 @@
+.service{
+    height: 30rem;
+    width: 100%;
+    background-color: #E2725B;
+    position: relative;
+}
+
+.service h4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 1.5rem 0px;
+}
+
+.service .cards-container{
+    height: 20rem;
+    width: 100%;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.service .cards-container .card{
+    height: 20rem;
+    width: 18rem;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.service .cards-container .card img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50px;
+}
+
+.service .cards-container .card p{
+    position: absolute;
+    background-color: #FFE8E8;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    width: 10rem;
+    padding: 0.8rem 0.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (max-width: 63.9375em){
+    .service{
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    .service h4{
+        font-size: 1.125rem;
+    }
+
+    .service .cards-container{
+        height: auto;
+        flex-direction: column;
+    }
+}

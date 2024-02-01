@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS Files-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Day Care</title>
+</head>
+<body>
+    <!--Nav Bar-->
+    <header class="header">
+        <div class="overlay has-fade"></div>
+        <nav class="container flex flex-jc-sb flex-ai-c">
+            <a href="/" class="header__logo">
+                <img src="images/logo.svg" alt="DAYCARE">
+            </a>
+
+            <a id="btnHamburger" href="#" class="header__toggle hide_for_desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <div class="header__links hide_for_mobile">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <a href="#" class="button-s hide_for_mobile">ENROLL NOW</a>
+        </nav>
+
+        <div class="header__menu has-fade">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </header>
+    <!--Hero Section-->
+    <section>
+        <div class="slider">
+            <figure>
+                <img src="images/dcimg1.PNG" alt="">
+                <img src="images/dcimg2.PNG" alt="">
+                <img src="images/dcimg3.jpg" alt="">
+                <img src="images/dcimg4.PNG" alt="">
+                <img src="images/dcimg1.PNG" alt="">
+            </figure>
+            <div class="info">
+                <h1>We're Here For The Best Care Of Your Child</h1>
+                <a href="#" class="button-s">ENROLL NOW</a>
+            </div>
+        </div>
+    </section>
+    <!--Service Section-->
+    <section>
+        <div class="service">
+            <h4>Our Services</h4>
+            <div class="cards-container flex flex-jc-c flex-ai-c">
+                <div class="card">
+                    <p>Home Day Care</p>
+                    <img src="images/home.PNG" alt="">
+                    
+                </div>
+                <div class="card">
+                    <p>After School Care</p>
+                    <img src="images/after-school.PNG" alt="">
+                </div>
+                <div class="card">
+                    <p>Overnight Care</p>
+                    <img src="images/overnight.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Us Section-->
+    <section>
+        <div class="about flex flex-jc-sb flex-ai-c">
+            <div class="info">
+                <h4>About Us</h4>
+                <h3>We Provide <span style="color:#CF2681">Love and Care</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dapibus velit. In at semper turpis, ultrices gravida nisl. Morbi dictum varius vehicula. Phasellus ac massa mattis nisl sagittis ultricies. Maecenas congue convallis enim, non vulputate ante dictum sed. Aenean et magna nibh. Ut consectetur maximus velit, in egestas neque sollicitudin ultricies. Morbi eget erat mauris. Donec non quam eget libero lacinia gravida ut non dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce fermentum diam hendrerit varius eleifend. Mauris fringilla, dui ut ullamcorper bibendum, odio ligula gravida leo, at porta leo lectus non dolor.</p>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/bg-img.png" alt="">
+            </div>
+            <div class="circle"></div>
+        </div>
+    </section>
+    <!--Contact Us Section-->
+    <section>
+        <div class="contact flex flex-ai-c">
+            <div class="container flex">
+                <!--Get In Touch!-->
+                <div class="forms">
+                    <div class="form-content">
+                        <h3>Get in touch!</h3>
+                        <div class="input-boxes">
+                             <div class="input-box">
+                                <input type="text" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" name="email" placeholder="Enter your valid email address" required>
+                            </div>
+                            <div class="input-box">
+                                <textarea name="message" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="button-s">
+                            <input type="submit" name="submit" value="SUBMIT">
+                        </div>
+                    </div> 
+                </div>
+                <!--FAQs-->
+                <div class="faq">
+                    <div class="faq-content">
+                        <h4>Frequently Ask <span style="color:rgba(188, 25, 113, 0.72);">Questions</span></h4>
+                        <div class="qa-boxes">
+                            <div class="qa-box">
+                                <div id="btnExpand" class="q-box flex flex-jc-sb flex-ai-c">
+                                    <h5>Lorem ipsum dolor sit amet?</h5>
+                                    <span class="material-symbols-outlined"> expand_more</span>
+                                </div>
+                                <div class="a-box">
+                                    <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque lectus ante, nec convallis massa rutrum pretium. Vestibulum vitae sapien odio. Mauris facilisis lectus et libero tincidunt luctus. </p>
+                                </div>
+                            </div>
+                            <div class="qa-box">
+                                <div id="btnExpand" class="q-box flex flex-jc-sb flex-ai-c">
+                                    <h5>Lorem ipsum dolor sit amet?</h5>
+                                    <span class="material-symbols-outlined"> expand_more</span>
+                                </div>
+                                <div class="a-box">
+                                    <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque lectus ante, nec convallis massa rutrum pretium. Vestibulum vitae sapien odio. Mauris facilisis lectus et libero tincidunt luctus. </p>
+                                </div>
+                            </div>
+                            <div class="qa-box">
+                                <div id="btnExpand" class="q-box flex flex-jc-sb flex-ai-c">
+                                    <h5>Lorem ipsum dolor sit amet?</h5>
+                                    <span class="material-symbols-outlined"> expand_more</span>
+                                </div>
+                                <div class="a-box">
+                                    <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque lectus ante, nec convallis massa rutrum pretium. Vestibulum vitae sapien odio. Mauris facilisis lectus et libero tincidunt luctus. </p>
+                                </div>
+                            </div>
+                            <div class="qa-box">
+                                <div id="btnExpand" class="q-box flex flex-jc-sb flex-ai-c">
+                                    <h5>Lorem ipsum dolor sit amet?</h5>
+                                    <span class="material-symbols-outlined"> expand_more</span>
+                                </div>
+                                <div class="a-box">
+                                    <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque lectus ante, nec convallis massa rutrum pretium. Vestibulum vitae sapien odio. Mauris facilisis lectus et libero tincidunt luctus. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--JS-->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
