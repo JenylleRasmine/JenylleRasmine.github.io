@@ -1,0 +1,176 @@
+.contact{
+    height: 45.5rem;
+    width: 100%;
+    background-color: #E2725B;
+    position: relative;
+}
+
+.contact .container{
+    height: 35.5rem;
+    width: 100%;
+    background-color: #FFE8E8;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    gap: 7.875rem;
+}
+
+.container .forms{
+    height: 100%;
+    width: 50%;
+    margin: 0px;/*t r b l*/
+    padding: 3rem 0px;
+}
+
+.forms .form-content{
+    margin-left: 11rem;
+}
+
+.forms .form-content h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 1rem 0px 1rem 0px;/*t r b l*/
+}
+
+.forms .form-content .input-boxes{
+    margin: 0px;
+    padding: 0px;
+}
+
+.forms .form-content .input-box input{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.125rem solid #BC1971;
+    padding-left: 1rem;
+    margin: 1rem 0px 1.5rem 0px;
+    background-color: transparent;
+}
+
+.forms .form-content .input-box input::placeholder{
+    color: #000000;
+    font-weight: 700;
+}
+
+.forms .form-content .input-box textarea{
+    width: 100%;
+    height: 7rem;
+    resize: none;
+    outline: none;
+    border: none;
+    border-bottom: 0.125rem solid #BC1971;
+    padding-left: 1rem;
+    margin: 1rem 0px 1.5rem 0px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.forms .form-content .input-box textarea::placeholder{
+    color: #000000;
+    font-weight: 700;
+}
+
+.forms .form-content .button-s input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 700;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container .faq{
+    height: 100%;
+    width: 50%;
+    margin: 0px;/*t r b l*/
+    padding: 2rem 4.563rem 2rem 0px;
+}
+
+.faq .faq-content{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+.faq .faq-content h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0px;
+    padding: 1.688rem 0px 0px 3.25rem;
+}
+
+.qa-boxes{
+    margin-top: 3.25rem;
+}
+
+.q-box{
+    padding: 0px 4.625rem 0px 3.875rem;
+    margin: 0px;
+}
+
+.material-symbols-outlined{
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.less span{
+    transform: rotate(-180deg);
+}
+
+.a-box{
+    padding: 0px 4.625rem 0px 3.875rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: 300ms ease-in-out;
+}
+
+.qa-box.active .a-box{
+    max-height: 300px;
+}
+
+@media (max-width: 63.9375em){
+    .contact{
+        height: auto;
+        padding: 4rem 0px;
+    }
+    .contact .container{
+        height: 100%;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .container .forms{
+        width: 100%;
+        padding: 1rem 0px;
+    }
+    .forms .form-content{
+        margin: 0px;
+        padding: 0px 1rem;
+    }
+    .container .faq{
+        width: 100%;
+        padding: 0px 1rem 2rem 1rem;
+    }
+    .faq .faq-content h4{
+        font-size: 1.125rem;
+        padding: 1.688rem 1.625rem 0px 1.875rem;
+    }    
+    .qa-boxes{
+        margin-top: 1.25rem;
+    }
+    .qa-box:last-child{
+        margin-bottom: 1rem;
+    }
+    .q-box{
+        padding: 0px 1.625rem 0px 1.875rem;
+    }
+    .a-box{
+        padding: 0px 1.625rem 0px 1.875rem;
+        
+    }
+}
